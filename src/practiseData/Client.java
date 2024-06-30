@@ -14,5 +14,9 @@ public class Client {
         PrintSumSubArray printSumSubArray = new PrintSumSubArray();
         int result = printSumSubArray.sumOfSubArray(A);
         System.out.println(result);
+
+        CountOfIndexInSubArray countOfIndexInSubArray = new CountOfIndexInSubArray();
+        int count = countOfIndexInSubArray.countOfIndexInSubArray(A);
+        System.out.println(count);
     }
 }
