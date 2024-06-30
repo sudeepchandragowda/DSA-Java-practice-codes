@@ -16,7 +16,7 @@ public class Client {
         System.out.println(result);
 
         CountOfIndexInSubArray countOfIndexInSubArray = new CountOfIndexInSubArray();
-        int count = countOfIndexInSubArray.countOfIndexInSubArray(A);
-        System.out.println(count);
+        int sum = countOfIndexInSubArray.countOfIndexInSubArray(A);
+        System.out.println(sum);
     }
 }
