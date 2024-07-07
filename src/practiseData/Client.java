@@ -21,5 +21,9 @@ public class Client {
 
         AllSubArraysOfSizeK allSubArraysOfSizeK = new AllSubArraysOfSizeK();
         allSubArraysOfSizeK.allSubArraysOfSizeK(A, 3);
+
+        MaxSumOfSubArrayK maxSumOfSubArrayK = new MaxSumOfSubArrayK();
+        int ans = maxSumOfSubArrayK.maxSumOfSubArrayK(A, 6);
+        System.out.println(ans);
     }
 }
